@@ -11,6 +11,7 @@ SRC_URI = "${GNU_MIRROR}/parted/parted-${PV}.tar.xz \
            file://0001-fs-Add-libuuid-to-linker-flags-for-libparted-fs-resi.patch \
            file://0001-tests-add-delay-in-ptests-to-avoid-dmesg-error.patch \
            file://autoconf-2.73.patch \
+           file://0001-bug-74444-PATCH-parted-fix-do_version-declaration.patch \
            file://run-ptest \
            "
 
